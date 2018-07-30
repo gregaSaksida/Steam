@@ -1,2 +1,1 @@
-# Steam
-Projektna naloga pri Programiranju 1
+# projekt_igre
