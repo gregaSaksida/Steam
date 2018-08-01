@@ -96,7 +96,7 @@ slovar_iger = {}
 for ime_strani in os.listdir(pot):
     with open(os.path.join(pot, ime_strani), encoding="utf-8") as stran:
         vsebina_strani = stran.read()
-    igre_stran(iskani_niz, vsebina_strani, slovar_iger=slovar_iger)
+    igre_stran(iskani_niz, vsebina_strani, slovar_iger)
 
 
 def nalozi_strani_iger(igre):
