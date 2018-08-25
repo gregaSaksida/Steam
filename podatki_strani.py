@@ -29,8 +29,8 @@ iskani_niz_1 = re.compile(
         r'style="display: none;">.{1,30}?'
         r'(?P<kategorije>\w.*?)\t{12}</a><div class="app_tag add_button"'
         r'.*?<b>Genre:</b>.*?">(?P<zanri>.*?)</a><br>'
-        r'.*?<div class="game_purchase_price price">.{1,20}?'
-        r'(?P<cena>Free to Play|\d{1,3},\d{1,2})'
+        r'.*?(<div class="game_purchase_price price">|<div class="discount_original_price">).{1,20}?'
+        r'(?P<cena>(Free to Play|Free|\d{1,3},\d{1,2}))'
         r'.*?System Requirements.*?Minimum:.*?Memory:</strong> (?P<RAM>\d{1,4} (K|M|G)B) RAM'
         r'.*?Storage:</strong> (?P<prostor>\d{1,4} (K|M|G)B) ',
         flags=re.DOTALL
@@ -54,8 +54,8 @@ iskani_niz_2 = re.compile(
         r'style="display: none;">.{1,30}?'
         r'(?P<kategorije>\w.*?)\t{12}</a><div class="app_tag add_button"'
         r'.*?<b>Genre:</b>.*?">(?P<zanri>.*?)</a><br>'
-        r'.*?<div class="game_purchase_price price">.{1,20}?'
-        r'(?P<cena>Free to Play|Free|\d{1,3},\d{1,2})',
+        r'.*?(<div class="game_purchase_price price">|<div class="discount_original_price">).{1,20}?'
+        r'(?P<cena>(Free to Play|Free|\d{1,3},\d{1,2}))',
         flags=re.DOTALL
 )
 
@@ -112,7 +112,7 @@ for igra in os.listdir(pot):
         ujemanje['ime'] = igra
         
         if ujemanje['cena'] == 'Free to Play' or ujemanje['cena'] == 'Free':
-            ujemanje['cena'] = '0,0'
+            ujemanje['cena'] = 0
         else:
             cena = ujemanje['cena'].split(',')
             ujemanje['cena'] = int(cena[0]) + int(cena[1]) / 100
@@ -142,6 +142,9 @@ for igra in os.listdir(pot):
             stevilo += int(element) * (1000**faktor)
             faktor -= 1
         ujemanje['stevilo_ocen'] = stevilo
+        
+        ujemanje['odstotek'] = int(ujemanje['odstotek'])
+        ujemanje['leto'] = int(ujemanje['leto'])
         
         seznam_iger.append(ujemanje)
     

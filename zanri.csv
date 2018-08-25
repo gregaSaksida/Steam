@@ -210,6 +210,10 @@ Basement.html,Early Access
 Bastion.html,Action
 Bastion.html,Indie
 Bastion.html,RPG
+"Batman, Arkham Asylum Game of the Year Edition.html",Action
+"Batman, Arkham Asylum Game of the Year Edition.html",Adventure
+"Batman, Arkham City - Game of the Year Edition.html",Action
+"Batman, Arkham City - Game of the Year Edition.html",Adventure
 Battle Brothers.html,Indie
 Battle Brothers.html,RPG
 Battle Brothers.html,Strategy
@@ -284,6 +288,8 @@ Blade Symphony.html,Action
 Blade Symphony.html,Indie
 BlazBlue Centralfiction.html,Action
 "BlazBlue, Chronophantasma Extend.html",Action
+Bleed.html,Action
+Bleed.html,Indie
 Blitzkrieg 3.html,Strategy
 Block N Load.html,Action
 Block N Load.html,Free to Play
@@ -295,6 +301,8 @@ BLOCKADE 3D.html,Early Access
 Blockland.html,Action
 Blockland.html,Indie
 Blockland.html,Simulation
+Blockstorm.html,Action
+Blockstorm.html,Indie
 Blood Bowl 2.html,Sports
 Blood Bowl 2.html,Strategy
 "Blood Bowl, Chaos Edition.html",Sports
@@ -430,6 +438,12 @@ Chronicon.html,Adventure
 Chronicon.html,Indie
 Chronicon.html,RPG
 Chronicon.html,Early Access
+"Citadel, Forged with Fire.html",Action
+"Citadel, Forged with Fire.html",Adventure
+"Citadel, Forged with Fire.html",Indie
+"Citadel, Forged with Fire.html",Massively Multiplayer
+"Citadel, Forged with Fire.html",RPG
+"Citadel, Forged with Fire.html",Early Access
 Cities XXL.html,Simulation
 "Cities, Skylines.html",Simulation
 "Cities, Skylines.html",Strategy
@@ -570,11 +584,16 @@ DC Universe™ Online.html,Adventure
 DC Universe™ Online.html,Free to Play
 DC Universe™ Online.html,Massively Multiplayer
 DC Universe™ Online.html,RPG
+Dead Age.html,Action
+Dead Age.html,Adventure
+Dead Age.html,Casual
+Dead Age.html,Indie
+Dead Age.html,RPG
+Dead Age.html,Simulation
+Dead Age.html,Strategy
 Dead Bits.html,Action
 Dead Bits.html,Casual
 Dead Bits.html,Indie
-Dead Cells.html,Action
-Dead Cells.html,Indie
 Dead Realm.html,Action
 Dead Realm.html,Adventure
 Dead Realm.html,Indie
@@ -602,6 +621,8 @@ Defy Gravity Extended.html,Indie
 Democracy 3.html,Indie
 Democracy 3.html,Simulation
 Democracy 3.html,Strategy
+Deponia Doomsday.html,Adventure
+Deponia Doomsday.html,Indie
 "Deponia, The Complete Journey.html",Adventure
 Deponia.html,Adventure
 Deponia.html,Indie
@@ -1573,6 +1594,14 @@ Mini Metro.html,Simulation
 Mini Metro.html,Strategy
 Mirror's Edge™.html,Action
 Mirror's Edge™.html,Adventure
+Miscreated.html,Action
+Miscreated.html,Adventure
+Miscreated.html,Indie
+Miscreated.html,Massively Multiplayer
+Miscreated.html,RPG
+Miscreated.html,Simulation
+Miscreated.html,Strategy
+Miscreated.html,Early Access
 "Mitos.is, The Game.html",Free to Play
 "Mitos.is, The Game.html",Simulation
 Modern Combat Versus.html,Action
@@ -2032,6 +2061,10 @@ Robocraft.html,Simulation
 Robot Roller-Derby Disco Dodgeball.html,Action
 Robot Roller-Derby Disco Dodgeball.html,Indie
 Robot Roller-Derby Disco Dodgeball.html,Sports
+Rock of Ages.html,Action
+Rock of Ages.html,Indie
+Rock of Ages.html,Racing
+Rock of Ages.html,Strategy
 Rocket League®.html,Action
 Rocket League®.html,Indie
 Rocket League®.html,Racing
@@ -2187,6 +2220,9 @@ Shelter 2.html,Casual
 Shelter 2.html,Indie
 Shelter.html,Adventure
 Shelter.html,Indie
+Sheltered.html,Indie
+Sheltered.html,RPG
+Sheltered.html,Strategy
 "SHENZHEN I,O.html",Indie
 "SHENZHEN I,O.html",Simulation
 "Sherlock Holmes, Crimes and Punishments.html",Adventure
@@ -2537,8 +2573,6 @@ Terraria.html,Action
 Terraria.html,Adventure
 Terraria.html,Indie
 Terraria.html,RPG
-TerraTech.html,Action
-TerraTech.html,Indie
 Teslagrad.html,Indie
 Tharsis.html,Indie
 Tharsis.html,RPG
@@ -2714,6 +2748,8 @@ theHunter Classic.html,Sports
 "theHunter, Call of the Wild™.html",Sports
 There's Poop In My Soup.html,Casual
 There's Poop In My Soup.html,Indie
+They Are Billions.html,Strategy
+They Are Billions.html,Early Access
 They Bleed Pixels.html,Action
 They Bleed Pixels.html,Indie
 Thief™ Gold.html,Action
@@ -2898,6 +2934,11 @@ Vanishing Realms™.html,Action
 Vanishing Realms™.html,Adventure
 Vanishing Realms™.html,RPG
 Vanishing Realms™.html,Early Access
+"VCB, Why City.html",Action
+"VCB, Why City.html",Adventure
+"VCB, Why City.html",Indie
+"VCB, Why City.html",Racing
+"VCB, Why City.html",Early Access
 VEGA Conflict.html,Free to Play
 VEGA Conflict.html,Massively Multiplayer
 VEGA Conflict.html,Strategy
@@ -3020,9 +3061,15 @@ Worlds Adrift - Early Access MMO.html,Massively Multiplayer
 Worlds Adrift - Early Access MMO.html,Early Access
 "Worm.is, The Game.html",Casual
 "Worm.is, The Game.html",Free to Play
+Worms Armageddon.html,Strategy
 Worms Reloaded.html,Strategy
 Worms Revolution.html,Strategy
 Worms Ultimate Mayhem.html,Strategy
+Worms W.M.D.html,Action
+Worms W.M.D.html,Strategy
+Wurm Unlimited.html,Adventure
+Wurm Unlimited.html,Indie
+Wurm Unlimited.html,RPG
 X Rebirth.html,Action
 X Rebirth.html,Simulation
 "X-COM, UFO Defense.html",Strategy
@@ -3057,6 +3104,8 @@ Yu-Gi-Oh! Duel Links.html,Strategy
 Yu-Gi-Oh! Legacy of the Duelist.html,Simulation
 Zenge.html,Casual
 Zenge.html,Indie
+Zeno Clash.html,Action
+Zeno Clash.html,Indie
 Ziggurat.html,Action
 Ziggurat.html,Indie
 Ziggurat.html,RPG
