@@ -20,7 +20,7 @@ def prenesi_stran(url, ime):
 iskani_niz = re.compile(
         r'(<div style="clear: left;"></div>|<!-- End Extra empty div -->).{0,50}?'
         r'<a href="(?P<url>http.{0,1}?://store.steampowered.com/'  #http.{0,1} zaobjame http in https
-        r'(app|sub)/.{0,400}?)"data-ds.{0,800}?'
+        r'(app|sub)/.{0,400}?)"  data-ds.{0,800}?'
         r'<span class="title">(?P<ime>.{1,100}?)</span>'
         r'.{0,700}?'
         r'row">(?P<datum>\d{1,2} [A-Z][a-z]{2}, (?P<leto>\d{4}))</div>'  #datum je oblike 12 Jan, 2016
@@ -47,12 +47,12 @@ for index in range(1, 335):
         if (int(ujemanje.group('leto')) <= 2017 and 
             stevilo_ocen >= 1000):
             """Zavrze najnovejse igre in igre s premalo ocenami."""
-            ime = ujemanje.group('ime').replace('/',',').replace(':',',').replace('*',',').replace('?',',').replace('<',',').replace('>',',').replace('"',',').replace('\\',',')
+            ime = ujemanje.group('ime').replace('/',',').replace(':',',').replace('*',',').replace('?',',').replace('<',',').replace('>',',').replace('"',',').replace('\\',',')  #Windows teh znakov v imenu datotek ne dopusti.
             slovar_iger[ime] = ujemanje.group('url')
     datoteka.close()
 
 stevec = 1
-print(len(slovar_iger))
+print('Program bo sedaj prenesel {} spletnih strani.'.format(len(slovar_iger)))
 
 for ime in slovar_iger:
     prenesi_stran(slovar_iger[ime], ime)

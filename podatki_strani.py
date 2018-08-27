@@ -5,6 +5,10 @@ Created on Sun Aug 12 12:44:59 2018
 @author: Grega
 """
 
+print('Program bo pregledal spletno stran vsake igre v mapi "igre". Teh strani je okoli 1500.')
+print('Program obcasno stoji na kaksni strani. Funkcija "search" iz knjiznice "requests" je zelo pocasna, ce ujemanja ni.')
+print('Za celotno izvedbo potrebuje program okoli 45 min. V optimizacijo se nisem poglabljal.')
+
 import os
 import re
 import json

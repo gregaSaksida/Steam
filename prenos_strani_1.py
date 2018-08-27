@@ -2,7 +2,6 @@
 
 import requests
 import os
-import re
 
 url = 'https://store.steampowered.com/search/?category1=998&filter=topsellers&page='
 
@@ -17,4 +16,5 @@ def prenesi_strani(delni_url, stevilo):
 			datoteka.write(stran.text)
 		print(os.path.join(pot, 'stran_{}.html'.format(index)))
 
+print('Program bo sedaj prenesel 334 spletnih strani.')
 prenesi_strani(url, 334)
